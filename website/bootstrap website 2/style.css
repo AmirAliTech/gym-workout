@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    /* width: 95%; */
+    flex-wrap: wrap;
+}
+
+.profilebar{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+}
+.chagne{
+    display: none;
+}
+
+
+
+.firstsection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+}
+.main1{
+    width: 50%;
+    display: flex;
+    align-items: start;
+    height: 600px;
+    justify-content: flex-end;
+    margin: 5px;
+}
+.main2{
+    width: 50%;
+    display: flex;
+    align-items: start;
+    height: 600px;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 5px;
+}
+.views{
+    margin: 10px;
+}
+.bol{
+    font-weight: bold;
+    color: rgb(65, 65, 65);
+}
+.interest{
+    display: flex;
+    flex-direction: column;
+}
+.inter{
+    background-color: rgb(230, 230, 230);
+    margin: 5px;
+    padding: 5px 10px;
+}
+.tag{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+/* .linemargin{
+    margin: 5px 0px;
+} */
+
+.myphoto{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-bottom: 14px;
+}
+.grid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.hyphen{
+    justify-content: space-evenly;
+}
+.draw{
+    height: 0.5px;
+    width: 100%;
+    background-color: rgb(197, 196, 196);
+    margin: 9px 0px;
+}
+.one{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    gap: 30px;
+}
+.two{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    gap: 30px;
+}
+.three{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;
+    gap: 30px;
+}
+#third{
+    display: none;
+}
+
+#fifth{
+    display: none;
+}
+.tag button{
+    border: none;
+    background-color: white;
+}

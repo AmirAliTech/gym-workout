@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    flex-wrap: wrap;
+}
+
+li{
+    list-style: none;
+}
+.bar{
+    color: #929191;
+    text-decoration: none;
+    margin: 25px;
+
+}
+nav div ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.arr{
+    background:#FFFFFF; 
+    color: black; 
+    border-radius: 50%;
+     padding: 5px; 
+     margin-left: 180px;
+}
+.buton{
+    background-color: #F7C873;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: none;
+}
+.navfirst{
+    width: 50%;
+}
+.navsecond{
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+.navsecond ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #929191;
+}
+.main::before{
+   content: '';
+   background-image: url('./assets1/Bg image hero.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: absolute;
+   z-index: -1;
+   width: 100%;
+   height: 900px !important;
+    
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+}
+.two{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+.two ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two ul li{
+    list-style: none;
+    margin: 12px;
+    color: #929191;
+}
+.two ul li .btn{
+    background-color: #F7C873;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: none;
+}
+.perform{
+    color:#DBA622
+}
+.hero{
+    width: 100%;
+    height: 600px !important;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.herone{
+    width: 50%;
+    margin-top: 40px;
+}
+.herone h1{
+    font-size: 60px;
+    color: white;
+}
+.herotwo{
+    width: 50%;
+    color: white;
+}
+.herone h1{
+    margin: 10px 0px;
+}
+.herone p{
+    padding: 30px 0px;
+    font-size: 20px;  
+}
+.herone button{
+    margin: 10px 0px;
+    background-color: #F7C873;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+.second-main{
+    background-color: #0E0E0E;
+    margin-top: 158px;
+    color: white;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.second2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.second2-card h2{
+    margin: 20px 5px;
+}
+.second2-card p{
+    margin: 20px 5px;
+}
+.second2-card img{
+    margin: 20px 5px;
+}
+.third{
+    background-color: #1A1C20;
+    height: 800px;
+}
+.third h1{
+    color: white;
+    padding-top: 30px;
+
+}
+.third p{
+    color: #E5E5E5;
+    padding: 30px 0px;
+}
+/* .third1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+} */
+.third1-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third1-box-otherimages{
+    display:flex;
+    flex-direction: column;
+}
+.third1-box-12images{
+    display: flex !important;
+}
+.third1-box-12images-first{
+    margin:10px 20px;
+}
+.third1-box-twoimages-second{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+.third1-box-twoimages-first{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.reactangle-box{
+    margin: 10px 20px;
+}
+
+.carousel1{
+    display:flex;
+    flex-direction: row;
+}
+.carone{
+    margin-left: 20px;
+    margin-right: 20px;
+    /* display: flex; */
+    align-items: end;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+.carone div{
+    /* margin-bottom: 35px;
+    margin-left: 15px; */
+    position: absolute;
+    bottom: 15%;
+    left: 7%;
+}
+
+.carmain{
+    background-color: #0E0E0E;
+    color:white;
+    width: 100%;
+    height: 1025px;
+}
+.carmainone h1{
+    padding: 20px 0px;
+    margin-left: 25px;
+}
+.tencards h1{
+    padding: 20px 0px;
+    margin-left: 25px;
+}
+.topfive{
+    display: flex;
+}
+.firstone{
+    margin: 20px 10px;
+    display: flex;
+    align-items: end;
+    width: 230px;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.firstone div{
+    margin-bottom: 35px;
+    margin-left: 15px;
+}
+.fourth{
+    background-color: #1A1C20;
+    color: white;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.enter{
+    background-color: #F7C873;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: none;
+    margin: 10px;
+}
+.vote{
+    background: transparent;
+    border: 1px solid #F7C873;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #F7C873;
+    margin: 10px;
+}
+.fourthfirst ul{
+    margin: 25px 0px;
+}
+.fourthfirst h1{
+    margin: 25px 0px;
+}
+.fourthfirst p{
+    margin: 10px 0px;
+}
+.fourthfirst ul li{
+    margin-left: -30px;
+    padding: 8px 0px;
+}
+.fourthfirst ul li i{
+    margin-right: 20px;
+    color: #F7C873;
+
+
+}
+.center{
+    display: flex;
+}
+.fourthsecond{
+    margin-left: 50px;
+}
+.fourthsecond-two{
+    position: absolute;
+    /* padding-left: 200px; */
+    bottom: 9%;
+    right: 16%;
+    
+}
+.fifth{
+    background-color: #0E0E0E;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+.fifth1{
+    display: flex;
+}
+.fifth1-1{
+    margin: 10px 85px;
+}
+.fifth1-1 p{
+    font-size: 12px;
+    color: #929191;
+}
+.fifth1-1 h6{
+    padding-bottom: 20px;
+}
+.fifth1-1 p span{
+    margin-left: 10px;
+}
+.fifth1-1-1 i{
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #929191;
+
+}
